@@ -1,0 +1,12 @@
+<form {{action "submit" on="submit"}}>
+  <p>
+    <label>Title</label>
+    {{input type="text" value=title}}
+  </p>
+  <p>
+    <label>Content</label>
+    {{textarea value=content}}
+  </p>
+  <button {{action "cancel"}}>Cancel</button>
+  <input type="submit">
+</form>

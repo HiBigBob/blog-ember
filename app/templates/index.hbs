@@ -1,0 +1,6 @@
+{{#each model as |post|}}
+   {{#blog-post title=post.title id=post.id}}
+     {{post.content}}
+   {{/blog-post}}
+{{/each}}
+{{post-form store=store}}
